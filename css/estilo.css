@@ -300,23 +300,6 @@ a {
   font-style: italic;
 }
 
-.menuPrincipal {
-  position: -webkit-sticky;
-  position: sticky;
-  padding: 10px;
-  margin: 3px;
-  list-style-position: inside;
-  font-size: 1rem;
-  color: #FFF3EB;
-  text-align: center;
-}
-
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
 /*menu horizontal*/
 li {
   margin: 1rem;
