@@ -514,7 +514,8 @@ li {
 }
 
 .w-100 {
-  max-width: 95%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   border-radius: 20px;
   -webkit-box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.1);
@@ -560,11 +561,11 @@ h5 {
 }
 
 #div_carousel {
-  background-color: rgba(53, 53, 39, 0.521);
+  background-color: rgba(36, 35, 28, 0.521);
   color: white;
   border-radius: 10px;
-  margin: 2rem;
   padding: 1rem;
+  margin: 2rem;
 }
 
 #box-p {
