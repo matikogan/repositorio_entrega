@@ -306,7 +306,7 @@ li {
     color: #fff;
     background-color: #A5A58D;
     border-color: black;
-    box-shadow: 4px 4px 10px 5px black;
+    box-shadow: 2px 2px 18px 1px black;
     margin-top: 1rem;
 }
 
@@ -381,11 +381,31 @@ h5 {
 
 #box-p {
     font-family: 'Dancing Script', cursive;
-    font-size: 1.3rem;
+    font-size: 1rem;
     background-color: #988D8A;
     color: whitesmoke;
     box-shadow: 4px 4px 15px 3px black;
-    padding: 1rem;
-    max-width: 80%;
-
+    padding: 0.5rem;
 }
+
+
+@media (min-width: 768px) {
+    #box-p {
+      font-size: 1.3em;
+      padding: 1rem;
+    }
+  }
+
+
+.box-id {
+    text-align: center;
+    background-image: url(../img/textura.jpg);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+    .box-id {
+     text-align: start;
+    }
+  }
