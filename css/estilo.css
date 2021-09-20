@@ -321,6 +321,20 @@ li {
   list-style: none;
 }
 
+.navbar-bckgcolor {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ddcec6), color-stop(21%, #c2b1ab), color-stop(91%, #a4948c));
+  background: linear-gradient(90deg, #020024 0%, #ddcec6 0%, #c2b1ab 21%, #a4948c 91%);
+  border-radius: 15px;
+  border: solid 3px #3D3D3D;
+  margin-bottom: 2rem;
+}
+
+.li_border {
+  border-right: solid 2px #FFF1E6;
+  padding-right: 1rem;
+}
+
 /*REDES*/
 #redes {
   max-width: 50px;
