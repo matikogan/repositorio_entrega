@@ -177,18 +177,19 @@ li {
     list-style: none;
 }
 
+@media (min-width: 975px){
 .navbar-bckgcolor {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,206,198,1) 0%, rgba(194,177,171,1) 21%, rgba(164,148,140,1) 91%);
     border-radius: 15px;   
     border: solid 3px #3D3D3D ;
     margin-bottom: 2rem;
-
+}
 }
 
 .li_border {
     border-right: solid 2px #FFF1E6;
-    padding-right: 1rem ;
+    padding-right: 1rem;
 }
 
 /*REDES*/
